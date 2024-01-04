@@ -1,0 +1,9 @@
+[
+  {
+    "industry": "Industry",
+    "details": "Short description",
+    "role": ["Role 1", "Role 2", "Role 3"],
+    "status": "live",
+    "technologies": ["Technology 1", "Technology 2", "Technology 3"]
+  }
+]

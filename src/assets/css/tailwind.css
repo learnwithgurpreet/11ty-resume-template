@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+  @apply text-husky-800 hover:text-husky-500 dark:text-husky-300 dark:hover:text-husky-400 underline;
+}
+
+.highlight {
+  @apply bg-husky-100 dark:bg-husky-900;
+}
+
+.with-border {
+  @apply border border-husky-400 dark:border-husky-600;
+}
+
+.work-entry.current .dot {
+  @apply bg-husky-800 dark:bg-husky-800;
+}
+
+.work-entry:nth-child(odd) {
+  @apply self-end pl-12;
+}
+
+.work-entry:nth-child(even) {
+  @apply self-start pr-12 text-right;
+}
+
+.work-entry:nth-child(odd) .dot-bg {
+  @apply left-0 -translate-x-2/4;
+}

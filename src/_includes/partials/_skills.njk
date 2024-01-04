@@ -1,0 +1,19 @@
+<section>
+  <h3 class="font-header font-semibold text-xl uppercase mb-6">Skills</h3>
+  {% for skill in author.skills %}
+    <div class="pb-8">
+      <h4 class="font-header font-semibold uppercase mb-3">{{ skill.type }}</h4>
+      <ul class="flex flex-wrap mt-2">
+        {% for tool in skill.tools %}
+          <li class="relative inline-block mb-1 mr-1 "><span
+          class="flex items-center subpixel-antialiased highlight px-3 py-1 font-header font-light text-xl md:text-1xl text-lead-text transition-color duration-200 ease-in-out">{{ tool.language }}
+            {% if tool.icon %}
+              &nbsp;{{ tool.icon | safe }}
+            {% endif %}
+            </span>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</section>

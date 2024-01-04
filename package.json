@@ -1,0 +1,39 @@
+{
+  "name": "11ty-resume-template",
+  "version": "1.0.0",
+  "description": "This template can be used to create new resumes with 11ty.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all -p dev:*",
+    "build": "run-s build:*",
+    "dev:11ty": "eleventy --serve",
+    "dev:css": "tailwindcss -i src/assets/css/tailwind.css -o _site/assets/css/styles.css --watch --postcss",
+    "build:11ty": "eleventy",
+    "build:css": "tailwindcss -i src/assets/css/tailwind.css -o _site/assets/css/styles.css --postcss"
+  },
+  "keywords": [
+    "template",
+    "11ty",
+    "eleventy",
+    "resume",
+    "cv",
+    "css",
+    "tailwindcss",
+    "postcss",
+    "html",
+    "javascript",
+    "nodejs",
+    "npm",
+    "github"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^3.1.8",
+    "autoprefixer": "^10.4.16",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0"
+  }
+}

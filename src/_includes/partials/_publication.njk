@@ -1,0 +1,15 @@
+<section class="pb-8">
+  <h3 class="font-header font-semibold text-md uppercase mb-6">Publications</h3>
+  <div class="space-y-6 border-l-2 border-dashed border-l-husky-400 dark:border-l-husky-600">
+    {% for item in author.publishes %}
+      <div class="relative">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="absolute -top-0.5 z-10 -ml-3.5 h-7 w-7 rounded-full text-husky-400 dark:text-husky-600"><path d="M2.047 14.667a.992.992 0 0 0 .466.607l1.909 1.104v2.199a1 1 0 0 0 1 1h2.199l1.104 1.91a1.002 1.002 0 0 0 1.366.366L12 20.75l1.91 1.104a1.002 1.002 0 0 0 1.366-.366l1.103-1.909h2.199a1 1 0 0 0 1-1V16.38l1.909-1.104a.999.999 0 0 0 .366-1.366L20.75 12l1.104-1.909a1 1 0 0 0-.366-1.366l-1.909-1.104V5.422a1 1 0 0 0-1-1H16.38l-1.103-1.909a1.004 1.004 0 0 0-.607-.466.994.994 0 0 0-.759.1L12 3.25l-1.909-1.104a.998.998 0 0 0-1.366.365l-1.104 1.91H5.422a1 1 0 0 0-1 1V7.62L2.513 8.725a1.001 1.001 0 0 0-.365 1.366L3.251 12l-1.104 1.909a1.003 1.003 0 0 0-.1.758z"/></svg>
+        <div class="ml-6">
+          <h4 class="font-bold"><a href="{{ item.link }}" class="link" rel="nofollow" target="_blank">{{ item.title }}</a></h4>
+          <p class="mt-2 text-sm">{{ item.details }}</p>
+          <time class="mt-1 text-sm font-medium" datetime="{{ item.date }}">{{ item.date }}</time>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
