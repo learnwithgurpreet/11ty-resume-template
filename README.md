@@ -332,29 +332,44 @@ Open `src/data/site.json` and edit the information describing your recent site l
     </thead>
     <tbody>
         <tr>
-            <td><code>industry</code></td>
-            <td>Type of domain of your project</td>
+            <td><code>name</code></td>
+            <td>Website name</td>
             <td>required</td>
         </tr>
         <tr>
-            <td><code>details</code></td>
-            <td>Short summary of project</td>
+            <td><code>url</code></td>
+            <td>URL of your website</td>
             <td>required</td>
         </tr>
         <tr>
-            <td><code>role[]</code></td>
-            <td>Array of Strings showcasing your role and responsibilities.</td>
+            <td><code>Canonical</code></td>
+            <td>In case you have another similar website, you can provide its URL</td>
+            <td>optional</td>
+        </tr>
+        <tr>
+            <td><code>lang</code></td>
+            <td>Language of your webpage (Eg. `en`)</td>
             <td>required</td>
         </tr>
         <tr>
-            <td><code>status</code></td>
-            <td>status of your project, example: live</td>
+            <td><code>locale</code></td>
+            <td>default locale (Eg. en_US)</td>
             <td>required</td>
         </tr>
         <tr>
-            <td><code>technologies</code></td>
-            <td>Technologies, or Used tech stack to delivery the project</td>
-            <td>required</td>
+            <td><code>title</code></td>
+            <td>Page title of your webpage</td>
+            <td>optional</td>
+        </tr>
+        <tr>
+            <td><code>themeColor</code></td>
+            <td>It will help in site.webmanifest file</td>
+            <td>optional</td>
+        </tr>
+        <tr>
+            <td><code>backgroundColor</code></td>
+            <td>It will help in site.webmanifest file</td>
+            <td>optional</td>
         </tr>
     </tbody>
 </table>
