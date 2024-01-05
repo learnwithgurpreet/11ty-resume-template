@@ -13,6 +13,10 @@ See [Demo](https://www.gurpreet-singh.in)
 - Self-Contained (no external resources)
 - Search Engine Optimized (meta, JSON-LD, etc...)
 
+### Lighthouse Performance Scores
+
+![lighthouse performance scores](https://github.com/learnwithgurpreet/11ty-resume-template/assets/3865313/2c1a0fa9-cef2-4c16-b893-f3748d995c62)
+
 ### Light Version
 
 ![screenshot-light](https://github.com/learnwithgurpreet/11ty-resume-template/assets/3865313/cd4f7856-cae7-4b1f-b119-887b26a10de8)
