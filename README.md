@@ -19,7 +19,7 @@ See [Demo](https://www.gurpreet-singh.in)
 
 ### Screenshot
 
-![screenshot](https://github.com/learnwithgurpreet/11ty-resume-template/assets/3865313/ec021d04-e899-4a67-b9ec-e70452bba828)
+![screenshot](https://github.com/learnwithgurpreet/11ty-resume-template/assets/3865313/184dec87-6e3e-4428-85f4-dfacc1e36f2e)
 
 ## Getting Started
 
