@@ -1,0 +1,96 @@
+<script id="CV-Data" type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "name": "{{ author.name }}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{ author.address.streetAddress }}",
+      "addressLocality": "{{ author.address.addressLocality }}",
+      "addressRegion": "{{ author.address.addressRegion }}",
+      "postalCode": "{{ author.address.postalCode }}",
+      "addressCountry": "{{ author.address.addressCountry }}"
+    },
+    "url": "{{ site.url }}",
+    "telephone": "{{ author.telephone }}",
+    "email": "{{ author.email }}",
+    "jobTitle": "{{ author.title }}",
+    "sameAs": [
+      {%- for sameAs in author.connect %}
+        "{{ sameAs.url }}"{% if not loop.last %},{% endif %}
+      {%- endfor %}
+    ],
+    "worksFor": [
+      {%- for worksFor in author.worksFor %}
+        {
+          "@type": "Organization",
+          "name": "{{ worksFor.companyName }}",
+          "sameAs": "{{ worksFor.link }}",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "{{ worksFor.address.addressLocality }}, {{ worksFor.address.addressRegion }}, {{ worksFor.address.addressCountry }}",
+            "postalCode": "{{ worksFor.address.postalCode }}",
+            "streetAddress": "{{ worksFor.address.streetAddress }}"
+          }
+        }{% if not loop.last %},{% endif %}
+      {%- endfor %}
+    ],
+    "alumniOf": [
+      {%- for alumniOf in author.alumniOf %}
+        {
+          "@type": "Role",
+          "startDate": "{{ alumniOf.year_start }}",
+          "endDate": "{{ alumniOf.year_end }}",
+          "roleName": "Student",
+          "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "{{ alumniOf.org }}",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "{{ alumniOf.address.addressLocality }}",
+              "addressRegion": "{{ alumniOf.address.addressRegion }}",
+              "addressCountry": "{{ alumniOf.address.addressCountry }}"
+            }
+          }
+        }{% if not loop.last %},{% endif %}
+      {%- endfor %}
+    ],
+    "hasCredential": [
+      {%- for credential in author.hasCredential %}
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "{{ credential.certification }}",
+          "dateIssued": "{{ credential.year }}",
+          "url": "{{ credential.link }}",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "{{ credential.org }}",
+            "description": "{{ credential.certification }}"
+          }
+        }{% if not loop.last %},{% endif %}
+      {%- endfor %}
+    ],
+    "knowsAbout": [
+      {%- for skill in author.skills %}
+        {%- for tool in skill.tools %}
+          {
+            "@type": "Thing",
+            "name": "{{ tool.language }}"
+          }{% if not loop.last %},{% endif %}
+        {%- endfor %}
+      {%- endfor %}
+    ],
+    "hasPublished": [
+      {%- for publish in author.publishes %}
+        {
+          "@type": "CreativeWork",
+          "name": "{{ publish.title }}",
+          "headline": "{{ publish.title }}",
+          "datePublished": "{{ publish.date }}",
+          "description": "{{ publish.details }}",
+          "url": "{{ publish.link }}"
+        }{% if not loop.last %},{% endif %}
+      {%- endfor %}
+    ]
+  }
+</script>

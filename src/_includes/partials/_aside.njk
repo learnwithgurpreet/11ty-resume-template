@@ -6,7 +6,13 @@
       <h2 class="font-medium text-front mb-4 leading-tight">{{ author.title }}</h2>
       <div class="relative inline-block leading-none">
         <div class="rounded-full relative z-10 overflow-hidden inline-block">
-          {% responsiveImage "src" + author.image, author.name %}
+          <img
+            alt="{{ author.name }}"
+            class="rounded-full"
+            width="160"
+            height="160"
+            src="{{ author.image }}"
+          />
         </div>
         <div class="absolute inset-0 rounded-full highlight with-border z-0 transform translate-x-12"></div>
       </div><br>

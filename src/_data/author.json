@@ -7,6 +7,13 @@
   "currentFocus": "Full Stack Development",
   "location": "Frankfurt, Germany",
   "email": "myemail@myemail.ext",
+  "address": {
+    "streetAddress": "Demo street 1",
+    "addressLocality": "Frankfurt am Main",
+    "addressRegion": "Hessen",
+    "postalCode": "123456",
+    "addressCountry": "Germany"
+  },
   "telephone": "+49 152 18055291",
   "website": "https://www.gurpreet-singh.in",
   "connect": [
@@ -224,6 +231,13 @@
       "time_start": "Apr 2012",
       "time_end": "Present",
       "link": "https://www.publicissapient.com/",
+      "address": {
+        "streetAddress": "Demo street 1",
+        "addressLocality": "Frankfurt am Main",
+        "addressRegion": "Hessen",
+        "postalCode": "89768",
+        "addressCountry": "Germany"
+      },
       "isCurrent": true
     }
   ],
@@ -233,7 +247,11 @@
       "certification": "Master of Computer Applications",
       "year_start": "2006",
       "year_end": "2009",
-      "address": "Frankfurt, Germany"
+      "address": {
+        "addressLocality": "Amritsar",
+        "addressRegion": "Punjab",
+        "addressCountry": "India"
+      }
     }
   ],
   "hasCredential": [
