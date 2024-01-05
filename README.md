@@ -17,13 +17,9 @@ See [Demo](https://www.gurpreet-singh.in)
 
 ![lighthouse performance scores](https://github.com/learnwithgurpreet/11ty-resume-template/assets/3865313/2c1a0fa9-cef2-4c16-b893-f3748d995c62)
 
-### Light Version
+### Screenshot
 
-![screenshot-light](https://github.com/learnwithgurpreet/11ty-resume-template/assets/3865313/cd4f7856-cae7-4b1f-b119-887b26a10de8)
-
-### Dark Version
-
-![screenshot-dark](https://github.com/learnwithgurpreet/11ty-resume-template/assets/3865313/240f1fb6-6573-434d-a59b-89b35fb310f3)
+![screenshot](https://github.com/learnwithgurpreet/11ty-resume-template/assets/3865313/ec021d04-e899-4a67-b9ec-e70452bba828)
 
 ## Getting Started
 
