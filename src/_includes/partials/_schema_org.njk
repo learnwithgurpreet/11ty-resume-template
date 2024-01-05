@@ -60,7 +60,7 @@
         {
           "@type": "EducationalOccupationalCredential",
           "credentialCategory": "{{ credential.certification }}",
-          "dateIssued": "{{ credential.year }}",
+          "dateCreated": "{{ credential.year }}",
           "url": "{{ credential.link }}",
           "recognizedBy": {
             "@type": "Organization",
@@ -77,7 +77,7 @@
             "@type": "Thing",
             "name": "{{ tool.language }}"
           }{% if not loop.last %},{% endif %}
-        {%- endfor %}
+        {%- endfor %}{% if not loop.last %},{% endif %}
       {%- endfor %}
     ],
     "hasPublished": [
