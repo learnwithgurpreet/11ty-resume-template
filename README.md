@@ -369,3 +369,6 @@ Open `src/data/site.json` and edit the information describing your recent site l
         </tr>
     </tbody>
 </table>
+
+## Credits
+Inpired by [weeby.studio](https://weeby.studio) Intro theme.
