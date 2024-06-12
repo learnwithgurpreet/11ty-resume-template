@@ -1,9 +1,58 @@
 [
   {
-    "industry": "Industry",
-    "details": "Short description",
-    "role": ["Role 1", "Role 2", "Role 3"],
-    "status": "live",
-    "technologies": ["Technology 1", "Technology 2", "Technology 3"]
+    "industry": "Personal Finance",
+    "projectName": "AI-Driven Personal Budget Assistant",
+    "details": "Currently building an AI-driven application designed to automate the categorization of personal financial transactions. This project involves using state-of-the-art Large Language Models (LLMs) to classify transactions based on descriptions and enriched context from Google search results. The initiative aims to reduce manual categorization errors, enhance user experience by minimizing the need for manual input, and improve financial management efficiency. Key achievements include implementing iterative experimentation to refine model accuracy, integrating LangSmith for detailed tracing and evaluation, and optimizing model performance to handle real-world financial data effectively.",
+    "role": ["AI Engineer"],
+    "status": "current",
+    "technologies": ["Python", "OpenAI API", "Groq", "LangSmith"]
+},
+  {
+    "industry": "Insurance",
+    "projectName": "Insurance Support Copilot",
+    "details": "Led the development of a groundbreaking MVP that leveraged Gen AI to revolutionize the ops and support of a re-insurance provider. This project realized approximately $50M in savings by optimizing the onboarding and modeling of insurance contracts. Additionally, I spearheaded the creation of a sophisticated knowledge graph to enable powerful reasoning with large language models, reducing actuarial work hours by 64%.",
+    "role": ["Tech Lead"],
+    "status": "past",
+    "technologies": ["AWS", "Kubernetes", "Langchain", "FastAPI", "React", "Sagemaker"]
+  },
+  {
+    "industry": "Telecommunications",
+    "projectName": "Telecom Customer Retention Enhancement",
+    "details": "Initiated and led the development of advanced machine learning models that successfully increased the customer win-back rate by 11%. This project not only enhanced customer retention strategies but also set a new benchmark for predictive analytics in the telecommunications sector.",
+    "role": ["Tech Lead"],
+    "status": "past",
+    "technologies": ["AWS Databricks", "Airflow", "Dbx"]
+  },
+  {
+    "industry": "Mining",
+    "projectName": "Mining Operations Optimization",
+    "details": "Managed a team of 9 data engineers and machine learning experts to implement cutting-edge ML solutions that enhanced core mining processes. This initiative not only reduced the mining carbon footprint by 4% but also included the implementation of MLOps best practices for model versioning and deployment, involving 18 models in production retrained monthly.",
+    "role": ["ML Tech Lead"],
+    "status": "past",
+    "technologies": ["Azure Databricks", "Dagster", "Azure", "Snowflake", "dbt", "pyGAM"]
+  },
+  {
+    "industry": "Consumer Packaged Goods",
+    "projectName": "CPG Supply Chain Optimization",
+    "details": "Designed and implemented a comprehensive org-wide quality solution that significantly enhanced the reliability of data products, driving business decisions. Developed a predictive model to forecast customer fulfillment rates, which increased revenue by 18% within a single quarter, showcasing a robust application of data science in supply chain management.",
+    "role": ["ML Tech Lead"],
+    "status": "past",
+    "technologies": ["Snowflake", "dbt", "Azure", "AzureML"]
+  },
+  {
+    "industry": "Travel and Hospitality",
+    "projectName": "Data-Driven Transformation at SnapTravel",
+    "details": "As the Engineering Manager, I led a team of 12 to overhaul SnapTravel's data platform, integrating advanced analytics that supported strategic business decisions. This leadership and innovation helped pivot the company from growth-focused strategies to profitability in just three months during the challenging first quarter of the COVID-19 pandemic.",
+    "role": ["Engineering Manager - Data"],
+    "status": "past",
+    "technologies": ["Airflow", "DBT", "Snowflake", "Looker", "Dynamo DB", "Spark"]
+  },
+  {
+    "industry": "Health and Fitness",
+    "projectName": "Athletigen Data Intelligence Platform",
+    "details": "Founded and led the development of a data intelligence platform integrating various data sources and accessed by thousands of users.",
+    "role": ["Founding Engineer"],
+    "status": "past",
+    "technologies": ["Python", "Spark", "AWS (Redshift, Lambda, EC2, S3)", "R", "d3.js", "MongoDb"]
   }
 ]

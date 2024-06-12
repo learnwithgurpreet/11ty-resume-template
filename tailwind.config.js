@@ -17,6 +17,13 @@ module.exports = {
           900: "#78340f",
           950: "#451a03",
         },
+        white: "#ffffff",
+        // Light mode colors from the theme.css file
+        light: {
+          accent: "#ff006e",
+          background: "#f8f8f2",
+          textOnAccent: "#000000",
+        }
       },
     },
   },

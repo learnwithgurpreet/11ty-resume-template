@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .link {
-  @apply text-husky-800 hover:text-husky-500 dark:text-husky-300 dark:hover:text-husky-400 underline;
+  @apply text-stone-800 hover:text-stone-100 dark:text-stone-300 dark:hover:text-stone-400 underline;
 }
 
 .highlight {
-  @apply bg-husky-100 dark:bg-husky-900;
+  @apply bg-stone-100 dark:bg-stone-900;
 }
 
 .with-border {
@@ -15,7 +15,7 @@
 }
 
 .work-entry.current .dot {
-  @apply bg-husky-800 dark:bg-husky-800;
+  @apply bg-stone-800 dark:bg-stone-800;
 }
 
 .work-entry:nth-child(odd) {
