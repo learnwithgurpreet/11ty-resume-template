@@ -9,8 +9,11 @@
     "dev:11ty": "eleventy --serve",
     "dev:css": "tailwindcss -i src/assets/css/tailwind.css -o _site/assets/css/styles.css --watch --postcss",
     "build:11ty": "eleventy",
-    "build:css": "tailwindcss -i src/assets/css/tailwind.css -o _site/assets/css/styles.css --postcss"
-  },
+    "build:css": "tailwindcss -i src/assets/css/tailwind.css -o _site/assets/css/styles.css --postcss",
+    "build:css:prod": "tailwindcss -i src/assets/css/tailwind.css -o _site/assets/css/styles.css --postcss --minify",
+    "build:eleventy:prod": "ELEVENTY_ENV=production eleventy",
+    "build:prod": "npm run build:eleventy:prod & npm run build:css:prod"
+  },  
   "keywords": [
     "template",
     "11ty",
