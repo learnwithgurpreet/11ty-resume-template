@@ -19,4 +19,4 @@ jobs:
         with:
           publish_dir: _dist
           publish_branch: gh-pages
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY11 }}
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
