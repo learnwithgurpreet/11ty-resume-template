@@ -14,7 +14,7 @@ jobs:
         with:
           install_dependencies: true
       - name: List output directory
-        run: ls -alh _dist
+        run: ls -alh _site
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
