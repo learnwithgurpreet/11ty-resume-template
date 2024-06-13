@@ -11,7 +11,7 @@
 }
 
 .with-border {
-  @apply border border-husky-400 dark:border-husky-600;
+  @apply border border-yellow-500 dark:border-yellow-500;
 }
 
 .work-entry.current .dot {
