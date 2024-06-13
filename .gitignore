@@ -18,9 +18,6 @@ api-docs/
 .vscode
 .idea
 
-# Eleventy output
-_site/
-
 # Test files
 .cache/
 test/stubs-layout-cache/_includes/*.js
