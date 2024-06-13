@@ -12,14 +12,12 @@ jobs:
       - name: Build
         uses: TartanLlama/actions-eleventy@master
         with:
-          args: --output _dist
           install_dependencies: true
       - name: List output directory
         run: ls -alh _dist
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          publish_dir: ./_dist
+          publish_dir: _site
           publish_branch: gh-pages
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        working-directory: ./ 
