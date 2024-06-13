@@ -1,7 +1,7 @@
 {
   "name": "Nehil Jain",
   "shortName": "NJ",
-  "org": "Arallon AI",
+  "org": "-",
   "image": "/assets/images/nehil_profile_pic.jpg",
   "title": "Applied AI Consultant",
   "currentFocus": "Building AI-powered products",
@@ -145,11 +145,5 @@
     }
   ],
   "publishes": [
-    {
-      "title": "World Wide Waste",
-      "date": "2023-10",
-      "link": "https://www.learnwithgurpreet.com/posts/world-wide-waste/",
-      "details": "I recently finished a book called World Wide Waste by Gerry McGovern. The author helps organizations reduce data waste by designing simpler, lighter, and more environmentally friendly websites and apps."
-    }
   ]
 }

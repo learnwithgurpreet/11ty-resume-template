@@ -1,5 +1,5 @@
 <section>
-  <h3 class="font-header font-semibold text-xl uppercase mb-6 text-yellow-500">Work</h3>
+  <h3 class="font-header font-semibold text-xl uppercase mb-6 text-sky-500">Work</h3>
   <div class="pb-8">
     <div class="work before:top-0 before:bottom-0 before:left-1/2 before:w-px before:-translate-x-px before:bg-stone-400 before:dark:bg-stone-600 before:block before:absolute before:content-[''] flex flex-col relative">
       {% for item in author.worksFor %}
@@ -9,8 +9,8 @@
           {% set current = "" %}
         {% endif %}
         <div class="work-entry relative w-1/2 py-4 {{ current }}"><span
-            class="dot-bg right-0 translate-x-1/2 bg-stone-400 dark:bg-stone-500 top-1/2 -translate-y-1/2 w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span
-              class="dot w-5 h-5 bg-stone-100 dark:bg-stone-50 rounded-full"></span></span>
+            class="dot-bg right-0 translate-x-1/2 bg-stone-100 dark:bg-stone-100 top-1/2 -translate-y-1/2 w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span
+              class="dot w-5 h-5 bg-sky-500 dark:bg-sky-500 rounded-full"></span></span>
           <h4 class="subpixel-antialiased"><a href="{{ item.link }}" target="_blank" rel="noopener noreferrer"
               class="link transition-colors duration-150 font-medium">{{ item.companyName }}</a></h4>
           <h5 class="text-sm font-normal mb-1">{{ item.title }}</h5>
