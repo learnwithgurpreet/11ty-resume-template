@@ -35,6 +35,10 @@ jobs:
       - name: List _site directory
         run: ls -alh _site
 
+      - name: List _site directory contents
+        run: ls -alh _site
+        working-directory: ${{ github.workspace }}
+
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
