@@ -1,45 +1,38 @@
-node_modules
-_site
+# Node modules and package lock
+node_modules/
+package-lock.json
 
 # Generated files
 package/generated*
 
-# Ignore installed npm modules
-node_modules/
-
-# Ignore build tool output, e.g. code coverage
+# Build tool output
 .nyc_output/
 coverage/
 docs/_data/coverage.json
 jsdoc/
 
-# Ignore API documentation
+# API documentation
 api-docs/
 
-# Ignore folders from source code editors
+# IDE folders
 .vscode
 .idea
 
-# Ignore eleventy output when doing manual tests
+# Eleventy output
 _site/
 
-package-lock.json
-
-# Ignore test files
-.cache
+# Test files
+.cache/
 test/stubs-layout-cache/_includes/*.js
-# macOS
+
+# macOS system files
 .DS_Store
 .AppleDouble
 .LSOverride
 Icon
 ._*
 
-# Node.js
-node_modules/
+# Node.js logs
 npm-debug.log
 yarn-error.log
 yarn-debug.log
-
-.cache/
-# End Generation Here
