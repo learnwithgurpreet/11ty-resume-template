@@ -1,2 +1,45 @@
 node_modules
 _site
+
+# Generated files
+package/generated*
+
+# Ignore installed npm modules
+node_modules/
+
+# Ignore build tool output, e.g. code coverage
+.nyc_output/
+coverage/
+docs/_data/coverage.json
+jsdoc/
+
+# Ignore API documentation
+api-docs/
+
+# Ignore folders from source code editors
+.vscode
+.idea
+
+# Ignore eleventy output when doing manual tests
+_site/
+
+package-lock.json
+
+# Ignore test files
+.cache
+test/stubs-layout-cache/_includes/*.js
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+.cache/
+# End Generation Here
