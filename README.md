@@ -2,7 +2,7 @@
 
 This template can be used to create new resumes with 11ty.
 
-See [Demo](https://www.gurpreet-singh.in)
+See [Demo](https://www.gurpreetsingh.me)
 
 ## Features
 
@@ -371,4 +371,5 @@ Open `src/data/site.json` and edit the information describing your recent site l
 </table>
 
 ## Credits
+
 Inpired by [weeby.studio](https://weeby.studio) Intro theme.
