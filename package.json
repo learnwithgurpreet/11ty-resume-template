@@ -1,6 +1,6 @@
 {
   "name": "11ty-resume-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This template can be used to create new resumes with 11ty.",
   "main": "index.js",
   "scripts": {
